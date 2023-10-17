@@ -151,34 +151,34 @@ a {
     border-left: 1px solid #ddd;
 }
 
-.board_view {
+.board_diary {
     width: 100%;
     border-top: 2px solid #000;
 }
 
-.board_view .title {
+.board_diary .title {
     padding: 20px 15px;
     border-bottom: 1px dashed #ddd;
     font-size: 2rem;
 }
 
-.board_view .info {
+.board_diary .info {
     padding: 15px;
     border-bottom: 1px solid #999;
     font-size: 0;
 }
 
-.board_view .info dl {
+.board_diary .info dl {
     position: relative;
     display: inline-block;
     padding: 0 20px;
 }
 
-.board_view .info dl:first-child {
+.board_diary .info dl:first-child {
     padding-left: 0;
 }
 
-.board_view .info dl::before {
+.board_diary .info dl::before {
     content: "";
     position: absolute;
     top: 1px;
@@ -189,47 +189,24 @@ a {
     background: #ddd;
 }
 
-.board_view .info dl:first-child::before {
+.board_diary .info dl:first-child::before {
     display: none;
 }
 
-.board_view .info dl dt,
-.board_view .info dl dd {
+.board_diary .info dl dt,
+.board_diary .info dl dd {
     display: inline-block;
     font-size: 1.4rem;
 }
 
-.board_view .info dl dt {
-    
-}
-
-.board_view .info dl dd {
+.board_diary .info dl dd {
     margin-left: 10px;
     color: #777;
 }
 
-.board_view .cont {
+.board_diary .cont {
     padding: 15px;
     border-bottom: 1px solid #000;
     line-height: 160%;
-    font-size: 1.4rem;
-}
-
-.board_write {
-    border-top: 2px solid #000;
-}
-
-.board_write .title,
-.board_write .info {
-    padding: 15px;
-}
-
-.board_write .info {
-    border-top: 1px dashed #ddd;
-    border-bottom: 1px solid #000;
-    font-size: 0;
-}
-
-.board_write .cont {
-    border-bottom: 1px solid #000;
+    font-size: 1.8rem;
 }
