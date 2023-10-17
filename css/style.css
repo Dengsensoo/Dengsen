@@ -13,10 +13,10 @@ ul, li {
 
 a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
-.board_wrab {
+.board_wrap {
     width: 1000px;
     margin: 100px auto;
 }
@@ -34,13 +34,13 @@ a {
     font-size: 1.4rem;
 }
 
-.bt_wrab {
+.bt_wrap {
     margin-top: 30px;
-    font-size: 0;
     text-align: center;
+    font-size: 0;
 }
 
-.bt_wrab a {
+.bt_wrap a {
     display: inline-block;
     min-width: 80px;
     margin-left: 10px;
@@ -50,11 +50,11 @@ a {
     font-size: 1.4rem;
 }
 
-.bt_wrab a:first-child {
+.bt_wrap a:first-child {
     margin-left: 0;
 }
 
-.bt_wrab a.on {
+.bt_wrap a.on {
     background: #000;
     color: #fff;
 }
@@ -116,6 +116,7 @@ a {
 .board_page {
     margin-top: 30px;
     text-align: center;
+    font-size: 0;
 }
 
 .board_page a {
@@ -212,4 +213,23 @@ a {
     border-bottom: 1px solid #000;
     line-height: 160%;
     font-size: 1.4rem;
+}
+
+.board_write {
+    border-top: 2px solid #000;
+}
+
+.board_write .title,
+.board_write .info {
+    padding: 15px;
+}
+
+.board_write .info {
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px solid #000;
+    font-size: 0;
+}
+
+.board_write .cont {
+    border-bottom: 1px solid #000;
 }
