@@ -210,3 +210,8 @@ a {
     line-height: 160%;
     font-size: 1.8rem;
 }
+
+#language {
+    font-size: 20px;
+    margin: 50px;
+}
