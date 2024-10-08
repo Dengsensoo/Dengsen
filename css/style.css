@@ -217,3 +217,11 @@ a {
     margin: 30px;
     border: 2px solid;
 }
+
+body {
+    background-color: #007f0d;
+    margin: 50px;
+    
+    font-family: Arial;
+    color: white;
+}
