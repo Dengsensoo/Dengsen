@@ -201,7 +201,7 @@ a {
 
 .board_diary .info dl dd {
     margin-left: 10px;
-    color: #777;
+    color: #c4c4c4;
 }
 
 .board_diary .cont {
@@ -220,7 +220,7 @@ a {
 
 body {
     background-color: #007f0d;
-    margin: 50px;
+    margin: 15px;
     
     font-family: Arial;
     color: white;
