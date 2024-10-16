@@ -141,12 +141,6 @@ a {
     font-size: 1.4rem;
 }
 
-.board_page a.num.on {
-    border-color: #000;
-    background: #000;
-    color: #fff;
-}
-
 .board_page a:first-child {
     border-left: 1px solid #ddd;
 }
